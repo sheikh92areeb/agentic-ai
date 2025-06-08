@@ -189,19 +189,15 @@ wheels = [
 ]
 
 [[package]]
-name = "lesson-01"
+name = "lesson-02"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "openai" },
     { name = "openai-agents" },
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "openai", specifier = ">=1.84.0" },
-    { name = "openai-agents", specifier = ">=0.0.17" },
-]
+requires-dist = [{ name = "openai-agents", specifier = ">=0.0.17" }]
 
 [[package]]
 name = "mcp"

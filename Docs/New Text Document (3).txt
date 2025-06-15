@@ -1,0 +1,101 @@
+What is Agentic AI?
+
+Agentic AI refers to AI systems designed to act autonomously, making decisions and taking actions to achieve specific goals with minimal human intervention,It's characterized by its ability to reason, adapt, and solve complex, multi-step problems independently. Think of it as AI agents that can manage workflows, interact with data and tools, and learn from interactions without constant oversight. 
+
+
+What are LLMs (Large Language Models)?
+
+Large Language Models (LLMs) are AI systems trained on massive amounts of text data to understand and generate human language. They can perform various tasks like text generation, translation, question answering, and more. LLMs are also known as foundation models because they can be adapted for a wide range of applications beyond just language processing
+
+Large language models, also known as LLMs, are very large deep learning models that are pre-trained on vast amounts of data. The underlying transformer is a set of neural networks that consist of an encoder and a decoder with self-attention capabilities.
+
+How they work:
+1. Training:
+LLMs are trained on large datasets by predicting the next word in a sequence, learning the relationships between words and phrases. 
+2. Inference:
+Once trained, LLMs can be used to generate text, translate languages, answer questions, and perform other language-related tasks. 
+3. Contextual Understanding:
+LLMs can understand the context of a conversation or text, allowing them to provide relevant and coherent responses. 
+
+
+What is Generative AI?
+
+Generative AI refers to a type of artificial intelligence that can create new content, such as text, images, audio, and video, based on patterns learned from existing data. It differs from traditional AI, which primarily focuses on analyzing and understanding data to perform specific tasks. Generative AI models are trained on large datasets and can then generate novel outputs in response to user prompts. 
+
+
+Difference Between Generative AI and Agentic AI:
+
+Generative AI focuses on creating new content like text, images, or code, while Agentic AI is designed for autonomous decision-making and action, capable of planning and executing tasks independently. Essentially, Generative AI is about creation, and Agentic AI is about action. 
+
+Generative AI (GenAI): 
+Creation: GenAI models are trained on vast datasets to generate new content that resembles the data they were trained on.
+Examples: Generating text (like articles or code), images, music, or videos.
+Focus: Generating new content based on prompts or instructions.
+Workflow: Typically requires human input to define the context and goals of the generated content.
+Example: ChatGPT, Midjourney. 
+
+Agentic AI: 
+Action & Decision-Making:
+Agentic AI systems are designed to act autonomously, making decisions and taking actions to achieve specific goals. 
+Examples:
+Autonomous vehicles, virtual assistants that can book appointments or manage schedules, AI-powered tools that automate complex tasks. 
+Focus:
+Performing tasks, solving problems, and achieving objectives with minimal human intervention. 
+Workflow:
+Can operate independently, perceive its environment, formulate strategies, and execute actions to reach its goals. 
+Example:
+AutoGPT. 
+
+Key Differences in a Table:
+Feature			Generative AI				Agentic AI
+Primary Role		Content Creation			Autonomous Action
+Focus			Generating new content			Making decisions and taking actions
+Human Input		Required to define context and goals	Can operate with minimal human input
+Examples		Text, image, code generation		Autonomous vehicles, virtual assistants
+
+In essence:
+Generative AI is like a creative artist, while Agentic AI is like a skilled project manager. 
+They can be used together. For example, a generative AI model could create marketing copy, and an agentic AI system could autonomously deploy that copy based on real-time data. 
+
+
+OpenAI's Agents SDK: what it is, why we're using it, and what benefits it offers.
+
+OpenAI's Agents SDK is a Python-based framework for building agentic AI applications, enabling developers to create intelligent systems that can autonomously perform tasks by combining large language models with tools and delegation capabilities
+
+What it is:
+Agentic AI:
+The SDK focuses on building "agentic" AI, meaning AI systems that can take actions and make decisions rather than just respond to queries. 
+Lightweight and Production-Ready:
+It provides a streamlined approach to building agentic systems with a small set of core primitives, making it suitable for real-world applications. 
+Python-First:
+The SDK leverages Python's features and syntax, minimizing the need for learning new abstractions. 
+Key Primitives:
+Agents: LLMs equipped with instructions and tools. 
+Handoffs: Mechanisms for delegating tasks between agents. 
+Guardrails: Mechanisms for input validation and output filtering to ensure safety and compliance. 
+Built-in Tracing:
+The SDK includes tracing capabilities for debugging, monitoring, and visualizing agent workflows. 
+Tool Integration:
+It allows agents to use Python functions as tools with automatic schema generation and validation. 
+Why it's being used:
+Facilitates Multi-Agent Systems:
+The SDK simplifies the creation of systems where multiple agents collaborate to achieve complex goals. 
+Handles State and Context:
+It enables agents to maintain state information and context across interactions, making them more adaptive. 
+Streamlines Development:
+The SDK's simplicity and built-in features reduce the complexity of building agentic applications. 
+Promotes Scalability and Maintainability:
+The modular nature of the SDK makes it easier to update, test, and extend agentic systems. 
+Enables Real-World Applications:
+The SDK provides a production-ready framework for building practical AI solutions. 
+Benefits:
+Simplified Development:
+Developers can build sophisticated agentic systems without needing to handle the underlying complexity of agent behavior. 
+Improved Efficiency:
+Agents can work in parallel and specialize in specific tasks, leading to faster and more efficient workflows. 
+Enhanced Safety and Reliability:
+Guardrails ensure that agents operate within safe and compliant boundaries. 
+Better Understanding and Debugging:
+Tracing capabilities make it easier to understand and debug agent interactions. 
+Increased Adaptability:
+Agents can maintain state and context, making them more adaptable to changing situations. 
